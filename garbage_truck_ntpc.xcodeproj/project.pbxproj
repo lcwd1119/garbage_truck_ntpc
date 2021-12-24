@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6364F87A277621B0002DF39B /* garbage_truck_ntpcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F879277621B0002DF39B /* garbage_truck_ntpcApp.swift */; };
+		6364F87C277621B0002DF39B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F87B277621B0002DF39B /* ContentView.swift */; };
+		6364F87E277621B1002DF39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6364F87D277621B1002DF39B /* Assets.xcassets */; };
+		6364F881277621B1002DF39B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6364F880277621B1002DF39B /* Preview Assets.xcassets */; };
+		6364F88B277621B1002DF39B /* garbage_truck_ntpcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F88A277621B1002DF39B /* garbage_truck_ntpcTests.swift */; };
+		6364F895277621B1002DF39B /* garbage_truck_ntpcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F894277621B1002DF39B /* garbage_truck_ntpcUITests.swift */; };
+		6364F897277621B1002DF39B /* garbage_truck_ntpcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F896277621B1002DF39B /* garbage_truck_ntpcUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6364F887277621B1002DF39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6364F86E277621B0002DF39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6364F875277621B0002DF39B;
+			remoteInfo = garbage_truck_ntpc;
+		};
+		6364F891277621B1002DF39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6364F86E277621B0002DF39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6364F875277621B0002DF39B;
+			remoteInfo = garbage_truck_ntpc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6364F876277621B0002DF39B /* garbage_truck_ntpc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = garbage_truck_ntpc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6364F879277621B0002DF39B /* garbage_truck_ntpcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garbage_truck_ntpcApp.swift; sourceTree = "<group>"; };
+		6364F87B277621B0002DF39B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6364F87D277621B1002DF39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6364F880277621B1002DF39B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6364F886277621B1002DF39B /* garbage_truck_ntpcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = garbage_truck_ntpcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6364F88A277621B1002DF39B /* garbage_truck_ntpcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garbage_truck_ntpcTests.swift; sourceTree = "<group>"; };
+		6364F890277621B1002DF39B /* garbage_truck_ntpcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = garbage_truck_ntpcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6364F894277621B1002DF39B /* garbage_truck_ntpcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garbage_truck_ntpcUITests.swift; sourceTree = "<group>"; };
+		6364F896277621B1002DF39B /* garbage_truck_ntpcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garbage_truck_ntpcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6364F873277621B0002DF39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6364F883277621B1002DF39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6364F88D277621B1002DF39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6364F86D277621B0002DF39B = {
+			isa = PBXGroup;
+			children = (
+				6364F878277621B0002DF39B /* garbage_truck_ntpc */,
+				6364F889277621B1002DF39B /* garbage_truck_ntpcTests */,
+				6364F893277621B1002DF39B /* garbage_truck_ntpcUITests */,
+				6364F877277621B0002DF39B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6364F877277621B0002DF39B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6364F876277621B0002DF39B /* garbage_truck_ntpc.app */,
+				6364F886277621B1002DF39B /* garbage_truck_ntpcTests.xctest */,
+				6364F890277621B1002DF39B /* garbage_truck_ntpcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6364F878277621B0002DF39B /* garbage_truck_ntpc */ = {
+			isa = PBXGroup;
+			children = (
+				6364F879277621B0002DF39B /* garbage_truck_ntpcApp.swift */,
+				6364F87B277621B0002DF39B /* ContentView.swift */,
+				6364F87D277621B1002DF39B /* Assets.xcassets */,
+				6364F87F277621B1002DF39B /* Preview Content */,
+			);
+			path = garbage_truck_ntpc;
+			sourceTree = "<group>";
+		};
+		6364F87F277621B1002DF39B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6364F880277621B1002DF39B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6364F889277621B1002DF39B /* garbage_truck_ntpcTests */ = {
+			isa = PBXGroup;
+			children = (
+				6364F88A277621B1002DF39B /* garbage_truck_ntpcTests.swift */,
+			);
+			path = garbage_truck_ntpcTests;
+			sourceTree = "<group>";
+		};
+		6364F893277621B1002DF39B /* garbage_truck_ntpcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6364F894277621B1002DF39B /* garbage_truck_ntpcUITests.swift */,
+				6364F896277621B1002DF39B /* garbage_truck_ntpcUITestsLaunchTests.swift */,
+			);
+			path = garbage_truck_ntpcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6364F875277621B0002DF39B /* garbage_truck_ntpc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6364F89A277621B1002DF39B /* Build configuration list for PBXNativeTarget "garbage_truck_ntpc" */;
+			buildPhases = (
+				6364F872277621B0002DF39B /* Sources */,
+				6364F873277621B0002DF39B /* Frameworks */,
+				6364F874277621B0002DF39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = garbage_truck_ntpc;
+			productName = garbage_truck_ntpc;
+			productReference = 6364F876277621B0002DF39B /* garbage_truck_ntpc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6364F885277621B1002DF39B /* garbage_truck_ntpcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6364F89D277621B1002DF39B /* Build configuration list for PBXNativeTarget "garbage_truck_ntpcTests" */;
+			buildPhases = (
+				6364F882277621B1002DF39B /* Sources */,
+				6364F883277621B1002DF39B /* Frameworks */,
+				6364F884277621B1002DF39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6364F888277621B1002DF39B /* PBXTargetDependency */,
+			);
+			name = garbage_truck_ntpcTests;
+			productName = garbage_truck_ntpcTests;
+			productReference = 6364F886277621B1002DF39B /* garbage_truck_ntpcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6364F88F277621B1002DF39B /* garbage_truck_ntpcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6364F8A0277621B1002DF39B /* Build configuration list for PBXNativeTarget "garbage_truck_ntpcUITests" */;
+			buildPhases = (
+				6364F88C277621B1002DF39B /* Sources */,
+				6364F88D277621B1002DF39B /* Frameworks */,
+				6364F88E277621B1002DF39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6364F892277621B1002DF39B /* PBXTargetDependency */,
+			);
+			name = garbage_truck_ntpcUITests;
+			productName = garbage_truck_ntpcUITests;
+			productReference = 6364F890277621B1002DF39B /* garbage_truck_ntpcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6364F86E277621B0002DF39B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6364F875277621B0002DF39B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6364F885277621B1002DF39B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6364F875277621B0002DF39B;
+					};
+					6364F88F277621B1002DF39B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6364F875277621B0002DF39B;
+					};
+				};
+			};
+			buildConfigurationList = 6364F871277621B0002DF39B /* Build configuration list for PBXProject "garbage_truck_ntpc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6364F86D277621B0002DF39B;
+			productRefGroup = 6364F877277621B0002DF39B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6364F875277621B0002DF39B /* garbage_truck_ntpc */,
+				6364F885277621B1002DF39B /* garbage_truck_ntpcTests */,
+				6364F88F277621B1002DF39B /* garbage_truck_ntpcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6364F874277621B0002DF39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6364F881277621B1002DF39B /* Preview Assets.xcassets in Resources */,
+				6364F87E277621B1002DF39B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6364F884277621B1002DF39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6364F88E277621B1002DF39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6364F872277621B0002DF39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6364F87C277621B0002DF39B /* ContentView.swift in Sources */,
+				6364F87A277621B0002DF39B /* garbage_truck_ntpcApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6364F882277621B1002DF39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6364F88B277621B1002DF39B /* garbage_truck_ntpcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6364F88C277621B1002DF39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6364F895277621B1002DF39B /* garbage_truck_ntpcUITests.swift in Sources */,
+				6364F897277621B1002DF39B /* garbage_truck_ntpcUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6364F888277621B1002DF39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6364F875277621B0002DF39B /* garbage_truck_ntpc */;
+			targetProxy = 6364F887277621B1002DF39B /* PBXContainerItemProxy */;
+		};
+		6364F892277621B1002DF39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6364F875277621B0002DF39B /* garbage_truck_ntpc */;
+			targetProxy = 6364F891277621B1002DF39B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6364F898277621B1002DF39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6364F899277621B1002DF39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6364F89B277621B1002DF39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"garbage_truck_ntpc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David.garbage-truck-ntpc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6364F89C277621B1002DF39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"garbage_truck_ntpc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David.garbage-truck-ntpc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6364F89E277621B1002DF39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David.garbage-truck-ntpcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/garbage_truck_ntpc.app/garbage_truck_ntpc";
+			};
+			name = Debug;
+		};
+		6364F89F277621B1002DF39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David.garbage-truck-ntpcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/garbage_truck_ntpc.app/garbage_truck_ntpc";
+			};
+			name = Release;
+		};
+		6364F8A1277621B1002DF39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David.garbage-truck-ntpcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = garbage_truck_ntpc;
+			};
+			name = Debug;
+		};
+		6364F8A2277621B1002DF39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David.garbage-truck-ntpcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = garbage_truck_ntpc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6364F871277621B0002DF39B /* Build configuration list for PBXProject "garbage_truck_ntpc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6364F898277621B1002DF39B /* Debug */,
+				6364F899277621B1002DF39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6364F89A277621B1002DF39B /* Build configuration list for PBXNativeTarget "garbage_truck_ntpc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6364F89B277621B1002DF39B /* Debug */,
+				6364F89C277621B1002DF39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6364F89D277621B1002DF39B /* Build configuration list for PBXNativeTarget "garbage_truck_ntpcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6364F89E277621B1002DF39B /* Debug */,
+				6364F89F277621B1002DF39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6364F8A0277621B1002DF39B /* Build configuration list for PBXNativeTarget "garbage_truck_ntpcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6364F8A1277621B1002DF39B /* Debug */,
+				6364F8A2277621B1002DF39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6364F86E277621B0002DF39B /* Project object */;
+}
