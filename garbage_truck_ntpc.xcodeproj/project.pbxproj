@@ -14,6 +14,21 @@
 		6364F88B277621B1002DF39B /* garbage_truck_ntpcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F88A277621B1002DF39B /* garbage_truck_ntpcTests.swift */; };
 		6364F895277621B1002DF39B /* garbage_truck_ntpcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F894277621B1002DF39B /* garbage_truck_ntpcUITests.swift */; };
 		6364F897277621B1002DF39B /* garbage_truck_ntpcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F896277621B1002DF39B /* garbage_truck_ntpcUITestsLaunchTests.swift */; };
+		6364F8A7277626BA002DF39B /* TruckLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F8A6277626BA002DF39B /* TruckLocationResponse.swift */; };
+		6364F8A927763F85002DF39B /* TruckRouteInfResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F8A827763F85002DF39B /* TruckRouteInfResponse.swift */; };
+		6364F8AB277643B9002DF39B /* TruckRouteInfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F8AA277643B9002DF39B /* TruckRouteInfViewModel.swift */; };
+		6364F8AD27764821002DF39B /* TruckLocationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F8AC27764821002DF39B /* TruckLocationListViewModel.swift */; };
+		6364F8AF2778F08D002DF39B /* LocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F8AE2778F08D002DF39B /* LocationResponse.swift */; };
+		6364F8B12778F1C1002DF39B /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F8B02778F1C1002DF39B /* LocationViewModel.swift */; };
+		6364F8B32779915D002DF39B /* TruckLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F8B22779915D002DF39B /* TruckLocationView.swift */; };
+		6364F8B5277994DD002DF39B /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F8B4277994DD002DF39B /* NetworkMonitor.swift */; };
+		6364F8B727799932002DF39B /* TruckRouteInfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F8B627799932002DF39B /* TruckRouteInfView.swift */; };
+		6364F8B927799D76002DF39B /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F8B827799D76002DF39B /* NetworkView.swift */; };
+		63C57C64277A135A0013A854 /* TruckLocationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C57C63277A135A0013A854 /* TruckLocationRowView.swift */; };
+		63C57C66277A27A00013A854 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C57C65277A27A00013A854 /* LocationView.swift */; };
+		63C57C68277A2A6C0013A854 /* TruckRouteInfRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C57C67277A2A6C0013A854 /* TruckRouteInfRowView.swift */; };
+		63C57C6B277A2D490013A854 /* RefreshableScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 63C57C6A277A2D490013A854 /* RefreshableScrollView */; };
+		63C57C6D277B01560013A854 /* TruckRouteInfDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C57C6C277B01560013A854 /* TruckRouteInfDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +59,20 @@
 		6364F890277621B1002DF39B /* garbage_truck_ntpcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = garbage_truck_ntpcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6364F894277621B1002DF39B /* garbage_truck_ntpcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garbage_truck_ntpcUITests.swift; sourceTree = "<group>"; };
 		6364F896277621B1002DF39B /* garbage_truck_ntpcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garbage_truck_ntpcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6364F8A6277626BA002DF39B /* TruckLocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckLocationResponse.swift; sourceTree = "<group>"; };
+		6364F8A827763F85002DF39B /* TruckRouteInfResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckRouteInfResponse.swift; sourceTree = "<group>"; };
+		6364F8AA277643B9002DF39B /* TruckRouteInfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckRouteInfViewModel.swift; sourceTree = "<group>"; };
+		6364F8AC27764821002DF39B /* TruckLocationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckLocationListViewModel.swift; sourceTree = "<group>"; };
+		6364F8AE2778F08D002DF39B /* LocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationResponse.swift; sourceTree = "<group>"; };
+		6364F8B02778F1C1002DF39B /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		6364F8B22779915D002DF39B /* TruckLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckLocationView.swift; sourceTree = "<group>"; };
+		6364F8B4277994DD002DF39B /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		6364F8B627799932002DF39B /* TruckRouteInfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckRouteInfView.swift; sourceTree = "<group>"; };
+		6364F8B827799D76002DF39B /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		63C57C63277A135A0013A854 /* TruckLocationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckLocationRowView.swift; sourceTree = "<group>"; };
+		63C57C65277A27A00013A854 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		63C57C67277A2A6C0013A854 /* TruckRouteInfRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckRouteInfRowView.swift; sourceTree = "<group>"; };
+		63C57C6C277B01560013A854 /* TruckRouteInfDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckRouteInfDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C57C6B277A2D490013A854 /* RefreshableScrollView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +124,10 @@
 		6364F878277621B0002DF39B /* garbage_truck_ntpc */ = {
 			isa = PBXGroup;
 			children = (
+				6364F8A527762548002DF39B /* models */,
+				6364F8A427762508002DF39B /* view models */,
+				6364F8A3277624F5002DF39B /* views */,
 				6364F879277621B0002DF39B /* garbage_truck_ntpcApp.swift */,
-				6364F87B277621B0002DF39B /* ContentView.swift */,
 				6364F87D277621B1002DF39B /* Assets.xcassets */,
 				6364F87F277621B1002DF39B /* Preview Content */,
 			);
@@ -127,6 +159,42 @@
 			path = garbage_truck_ntpcUITests;
 			sourceTree = "<group>";
 		};
+		6364F8A3277624F5002DF39B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6364F87B277621B0002DF39B /* ContentView.swift */,
+				6364F8B22779915D002DF39B /* TruckLocationView.swift */,
+				6364F8B627799932002DF39B /* TruckRouteInfView.swift */,
+				6364F8B827799D76002DF39B /* NetworkView.swift */,
+				63C57C63277A135A0013A854 /* TruckLocationRowView.swift */,
+				63C57C65277A27A00013A854 /* LocationView.swift */,
+				63C57C67277A2A6C0013A854 /* TruckRouteInfRowView.swift */,
+				63C57C6C277B01560013A854 /* TruckRouteInfDetailView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6364F8A427762508002DF39B /* view models */ = {
+			isa = PBXGroup;
+			children = (
+				6364F8AA277643B9002DF39B /* TruckRouteInfViewModel.swift */,
+				6364F8AC27764821002DF39B /* TruckLocationListViewModel.swift */,
+				6364F8B02778F1C1002DF39B /* LocationViewModel.swift */,
+				6364F8B4277994DD002DF39B /* NetworkMonitor.swift */,
+			);
+			path = "view models";
+			sourceTree = "<group>";
+		};
+		6364F8A527762548002DF39B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6364F8A6277626BA002DF39B /* TruckLocationResponse.swift */,
+				6364F8A827763F85002DF39B /* TruckRouteInfResponse.swift */,
+				6364F8AE2778F08D002DF39B /* LocationResponse.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +211,9 @@
 			dependencies = (
 			);
 			name = garbage_truck_ntpc;
+			packageProductDependencies = (
+				63C57C6A277A2D490013A854 /* RefreshableScrollView */,
+			);
 			productName = garbage_truck_ntpc;
 			productReference = 6364F876277621B0002DF39B /* garbage_truck_ntpc.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +286,9 @@
 				Base,
 			);
 			mainGroup = 6364F86D277621B0002DF39B;
+			packageReferences = (
+				63C57C69277A2D490013A854 /* XCRemoteSwiftPackageReference "RefreshableScrollView" */,
+			);
 			productRefGroup = 6364F877277621B0002DF39B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +331,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6364F8AB277643B9002DF39B /* TruckRouteInfViewModel.swift in Sources */,
+				6364F8B32779915D002DF39B /* TruckLocationView.swift in Sources */,
+				6364F8AF2778F08D002DF39B /* LocationResponse.swift in Sources */,
 				6364F87C277621B0002DF39B /* ContentView.swift in Sources */,
 				6364F87A277621B0002DF39B /* garbage_truck_ntpcApp.swift in Sources */,
+				6364F8A7277626BA002DF39B /* TruckLocationResponse.swift in Sources */,
+				6364F8B727799932002DF39B /* TruckRouteInfView.swift in Sources */,
+				6364F8AD27764821002DF39B /* TruckLocationListViewModel.swift in Sources */,
+				6364F8B5277994DD002DF39B /* NetworkMonitor.swift in Sources */,
+				63C57C68277A2A6C0013A854 /* TruckRouteInfRowView.swift in Sources */,
+				63C57C64277A135A0013A854 /* TruckLocationRowView.swift in Sources */,
+				63C57C6D277B01560013A854 /* TruckRouteInfDetailView.swift in Sources */,
+				6364F8B927799D76002DF39B /* NetworkView.swift in Sources */,
+				63C57C66277A27A00013A854 /* LocationView.swift in Sources */,
+				6364F8A927763F85002DF39B /* TruckRouteInfResponse.swift in Sources */,
+				6364F8B12778F1C1002DF39B /* LocationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"garbage_truck_ntpc/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VQAY6397M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -447,6 +536,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"garbage_truck_ntpc/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VQAY6397M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -599,6 +689,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63C57C69277A2D490013A854 /* XCRemoteSwiftPackageReference "RefreshableScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/phuhuynh2411/RefreshableScrollView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63C57C6A277A2D490013A854 /* RefreshableScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C57C69277A2D490013A854 /* XCRemoteSwiftPackageReference "RefreshableScrollView" */;
+			productName = RefreshableScrollView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6364F86E277621B0002DF39B /* Project object */;
 }
